@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 20px;
+}
+
+header nav {
+width: 1108px;
+margin: auto;
+}
+
+header nav ul {
+    display: inline-block;
+}
+
+header nav .nav__right {
+    float: right;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    color: #9E9AA8;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+header nav ul li .logo {
+    font-size: 25px;
+    color: #d7d4de;
+}
+
+.btn{
+    padding: 10px 25px;
+    border-radius: 28px;
+    background-color: aquamarine;
+    color: white;
+    font-weight: 700;
+}
+
+section{
+    padding: 20px;
+}
+
+section .section__wrapper{
+    width: 1108px;background-color: rgb(213, 203, 222);
+margin: auto;
+}
+
+section .section__wrapper .section__item{
+    width: 49.8%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+section .section__wrapper .section__item img {
+    width: 300px;
+    height: 300px;
+}
+
+.section__form {
+width: 1108px;
+background-color: rgb(86, 44, 125);
+border-radius: 10px;
+padding: 40px;
+position: relative;
+top: 70%;
+margin: auto;
+}
+
+main {
+    width: 100%;
+    height: 800px;
+    background-color: gainsboro;
+    margin: auto;
+}
+
